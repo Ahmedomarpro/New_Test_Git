@@ -1,8 +1,9 @@
 package com.ao.mytest;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
+import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -11,6 +12,12 @@ public class MainActivity extends AppCompatActivity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 
-		
-	}
+ 		Toast.makeText(this, "Route1", Toast.LENGTH_SHORT).show();
+		Toast.makeText(this, "Route2", Toast.LENGTH_SHORT).show();
+		Toast.makeText(this, "Route3", Toast.LENGTH_SHORT).show();
+		Toast.makeText(this, "Route4", Toast.LENGTH_SHORT).show();
+
+
+
+ 	}
 }
