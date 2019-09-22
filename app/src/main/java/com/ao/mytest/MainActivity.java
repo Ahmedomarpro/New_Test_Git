@@ -16,6 +16,8 @@ public class MainActivity extends AppCompatActivity {
 		Toast.makeText(this, "Route2", Toast.LENGTH_SHORT).show();
 		Toast.makeText(this, "Route3", Toast.LENGTH_SHORT).show();
 		Toast.makeText(this, "Route4", Toast.LENGTH_SHORT).show();
+		Toast.makeText(this, "Route4", Toast.LENGTH_SHORT).show();
+		Toast.makeText(this, "Route4", Toast.LENGTH_SHORT).show();
 
 
 
